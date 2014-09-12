@@ -26,7 +26,7 @@ void MainWindow::on_pbBrowse_clicked()
 		ui->lbStatusMsg->setText("Valid mapheader, ready to fix");
 		ui->pbFixMap->setEnabled(true);
 	} else {
-		ui->lbStatusMsg->setText("Invlid mapheader, can not fix");
+		ui->lbStatusMsg->setText("Invalid mapheader, can not fix");
 		ui->pbFixMap->setEnabled(false);
 	}
 }
